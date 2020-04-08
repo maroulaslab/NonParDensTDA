@@ -1,0 +1,20 @@
+Package: NonParDensTDA
+Title: Use Persistence Diagram Kernel Density fro Maroulas, Mike, And Oballe 2019.
+Version: 1.0.0
+Authors@R:
+    c(person(given = "Christopher",
+           family = "Oballe",
+           role = c("aut", "cre"),
+           email = "coballejr@gmail.com"), person('Vasileios', 'Maroulas', role ='aut'), person('Joshua', 'Mike', role ='aut'))
+Description: A reference class to represent the persistence diagram kernel from Maroulas, Mike, and Oballe 2019. It allows sampling and approximate evaluation.
+Imports:
+  mvtnorm,
+  combinat,
+  plyr,
+  clue
+Suggests:
+  TDA
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
